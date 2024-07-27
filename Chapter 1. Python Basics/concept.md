@@ -207,7 +207,7 @@ Looping
 - while loop
 
 
-[logic.py](https://github.com/justinbrianhwang/AI-project/tree/main/Chapter%201.%20Python%20Basics)
+[logic.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/logic.py)
 ``` python
 
 # p function
@@ -481,7 +481,7 @@ print(bool(""))
 - while
 
 
-[logic.py](https://github.com/justinbrianhwang/AI-project/tree/main/Chapter%201.%20Python%20Basics)
+[logic.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/logic.py)
 ``` python
 # p 함수
 def p(value):
