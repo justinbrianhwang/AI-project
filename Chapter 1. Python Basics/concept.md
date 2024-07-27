@@ -25,7 +25,7 @@ Data types are a critical component in programming, as they determine the amount
 
 8. **Class**: Data + storage.
 
-[dataTypes.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/dataTypes.py) code example:
+[dataTypes.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/dataTypes.py) code example:
 ```python
 # Print function
 def p(value):
@@ -207,7 +207,7 @@ Looping
 - while loop
 
 
-[logic.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/logic.py)
+[logic.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/logic.py)
 ``` python
 
 # p function
@@ -298,7 +298,7 @@ while a < 10:
 
 8. **Class**: 데이터 + 저장
 
-[dataTypes.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/dataTypes.py) 코드 예시:
+[dataTypes.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/dataTypes.py) 코드 예시:
 ```python
 # 출력함수
 def p(value):
@@ -481,7 +481,7 @@ print(bool(""))
 - while
 
 
-[logic.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/logic.py)
+[logic.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/logic.py)
 ``` python
 # p 함수
 def p(value):
