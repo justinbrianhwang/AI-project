@@ -3,18 +3,17 @@
 ## pickle
 import pickle
 obj = {
-    "name": "홍길동",
+    "name": "Hong Gil-dong",
     "age": 20
 }
-# obj.obj파일에 obj객체의 데이터를 바이너리로 쓰기
-# wb : 바이너리 쓰기 모드
+# Write the data of obj object to obj.obj file as binary
+# wb: binary write mode
 with open('obj.obj', 'wb') as f:
     pickle.dump(obj, f)
-# obj.obj파일에서 바이너리 데이터를 읽기
-# rb : 바이너리 읽기 모드
+# Read binary data from obj.obj file
+# rb: binary read mode
 with open('obj.obj', 'rb') as f:
     print(pickle.load(f))
-
 
 ## shelve
 import shelve
@@ -29,13 +28,3 @@ save("number", [1, 2, 3, 4, 5])
 save("string", ["a", "b", "c"])
 print(get("number"))
 print(get("string"))
-
-
-
-
-
-
-
-
-
-
