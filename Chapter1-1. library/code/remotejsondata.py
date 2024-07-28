@@ -1,3 +1,5 @@
+### remotejsondata.py
+
 from util import p
 
 # requests
@@ -7,7 +9,6 @@ import json
 response = requests.get('https://jsonplaceholder.typicode.com/posts')
 data = response.json()
 p(data)
-
 
 # urllib
 import json
@@ -19,8 +20,7 @@ if response.getcode() == 200:
     for post in data:
         p(post['title'])
 else:
-    p('에러발생!')
-
+    p('Error occurred!')
 
 # aiohttp
 import aiohttp
@@ -32,11 +32,10 @@ async def fetch_json(url):
         async with session.get(url) as response:
             data = await response.json()
             return data
+
 async def main():
     url = 'https://jsonplaceholder.typicode.com/posts'
     data = await fetch_json(url)
     p(json.dumps(data, indent=4))
 
 asyncio.run(main())
-
-
