@@ -295,7 +295,7 @@ variable = function(argument)
 - Variables passed to a function are called arguments, and variables used to execute code within the function are called parameters.
 - Structuring a function to handle only one functionality is efficient for reuse and maintenance.
 
-
+[function.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/function.py)
 ```python
 # Functions
 
@@ -340,7 +340,7 @@ Input, Processing, Output. Programming involves processing input data and conver
     - monitor
         - `print()`: Outputs the characters passed as an argument to the console.
 
-
+[fileio.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/fileio.py)
 ```python
 # File I/O
 
@@ -412,6 +412,7 @@ A class is a blueprint for creating objects, and an object is a programming unit
 3. Abstraction
     - Simplifying as much as possible without losing the essence.
 
+[class&object.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/class%26object.py)
 ```python
 # Class
 
@@ -475,7 +476,7 @@ Modularizing/packaging numerous data and logic is crucial for program scalabilit
     - When a folder contains an `__init__.py` file, it is recognized as a package.
     - Modules can be used with `import package_name.module_name`.
 
-
+[modlue&package.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/module%26package.py)
 ```python
 # 1. Create the modules directory and then create the __init__.py file.
 # 2. Create the calc directory under the modules directory and then create the __init__.py file.
@@ -513,7 +514,7 @@ Handling exceptions is an important programming issue to enhance the stability o
 - Creating Custom Exceptions
     - Inherit from the `Exception` class and override the `__str__()` method.
 
-
+[exceptionHandling.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/exceptionHandling.py)
 ```python
 # Exception Handling
 
@@ -842,7 +843,7 @@ variable = function(argument)
 - 함수에 전달되는 값을 가지는 변수를 인자라고 하고, 함수 내 코드들을 실행하기 위한 변수들을 파라미터라 한다.
 - 하나의 함수는 하나의 기능만을 처리하도록 구조화하는 것이 재사용과 유지관리 차원에서 효율적
 
-
+[function.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/function.py)
 ```python
 # 함수
 
@@ -887,7 +888,7 @@ Input, Processing, Output. 프로그래밍은 입력 데이터를 처리하여 �
     - monitor
         - `print()`: 인자로 전달받은 문자들을 콘솔에 출력
 
-
+[fileio.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/fileio.py)
 ```python
 # file io
 
@@ -959,7 +960,7 @@ Class는 Object를 생성하기 위한 틀, Object는 데이터와 기능을 묶
 3. 추상화
     - 본연의 성질을 잃지 않는 선에서 최대한 단순화
 
-
+[class&object.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/class%26object.py)
 ```python
 # class
 
@@ -1023,7 +1024,7 @@ print(car.getName())  # 이 차는 honda 입니다
     - 폴더 내에 아무 내용이 없는 `__init__.py` 파일을 작성하면 패키지로 인식
     - `import 패키지명.모듈명`으로 모듈을 호출하여 사용
 
-
+[modlue&package.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/module%26package.py)
 ```python
 # 1. modules 디렉토리 생성 후 __init__.py 파일 생성
 # 2. modules 디렉토리 하위에 calc 디렉토리 생성 후 __init__.py 파일 생성
@@ -1060,7 +1061,7 @@ print(add(5, 5))  # 10
     - `Exception` 클래스를 상속받아 `__str__()` 메서드를 오버라이딩
 
 
-
+[exceptionHandling.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter%201.%20Python%20Basics/code/exceptionHandling.py)
 ```python
 # exception handling
 
