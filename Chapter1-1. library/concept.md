@@ -26,7 +26,7 @@ Text data is used very frequently in data processing, so there are many librarie
 
 *Regular expressions are a powerful tool supported by all programming languages. Using them well can make your code more concise.
 
-[stringdata.py] → Including explanation
+[stringdata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/stringdata.py)
 
 ```python
 # Text processing library
@@ -132,7 +132,7 @@ Libraries used for handling numeric data:
 - **random**: Generating random numbers
 - **statistics**: Calculating averages, medians, etc.
 
-[numberdata.py] → Including explanation
+[numberdata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/numberdata.py)
 
 ```python
 # numberdata.py
@@ -182,7 +182,7 @@ Libraries related to handling date data:
 - **datetime**
 - **calendar**
 
-[datedata.py] → Including explanation
+[datedata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/datedata.py)
 
 ```python
 # datedata.py
@@ -219,7 +219,7 @@ There are various libraries for handling object data:
 - **pickle**
 - **shelve**
 
-[objectdata.py] → Including explanation
+[objectdata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/objectdata.py)
 
 ```python
 # objectdata.py
@@ -264,7 +264,7 @@ Various libraries support handling formatted data:
 - **xml**
 - **json**
 
-[formatdata.py] → Including explanation
+[formatdata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/formatdata.py)
 
 ```python
 # formatdata.py
@@ -322,7 +322,7 @@ with open("xmldata.xml", mode="r", encoding="utf-8") as f:
 - **urllib**
 - **aiohttp**
 
-[remotejsondata.py] → Including explanation
+[remotejsondata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/remotejsondata.py)
 
 ```python
 # remotejsondata.py
@@ -396,7 +396,7 @@ https://docs.python.org/3/library
 
 *정규 표현식의 경우는 모든 언어에서 지원하는 강력한 도구이다. 이를 잘 사용하면 코드를 간결히 쓸 수 있다.
 
-[stringdata.py] → 설명까지 추가
+[stringdata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/stringdata.py)
 
 ```python
 # 문자열 처리 라이브러리
@@ -502,7 +502,7 @@ p(result)
 - **random**: 랜덤한 수 추출
 - **statistics**: 평균값, 중간값 계산
 
-[numberdata.py] → 설명까지 추가
+[numberdata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/numberdata.py)
 
 ```python
 # numberdata.py
@@ -552,7 +552,7 @@ p(statistics.median(score))  # 중간값
 - **datetime**
 - **calendar**
 
-[datedata.py] → 설명까지 추가
+[datedata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/datedata.py)
 
 ```python
 # datedata.py
@@ -589,7 +589,7 @@ p(calendar.isleap(2024))  # 윤년 여부
 - **pickle**
 - **shelve**
 
-[objectdata.py] → 설명까지 추가
+[objectdata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/objectdata.py)
 
 ```python
 # objectdata.py
@@ -634,7 +634,7 @@ print(get("string"))
 - **xml**
 - **json**
 
-[formatdata.py] → 설명까지 추가
+[formatdata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/formatdata.py)
 
 ```python
 # formatdata.py
@@ -692,7 +692,7 @@ with open("xmldata.xml", mode="r", encoding="utf-8") as f:
 - **urllib**
 - **aiohttp**
 
-[remotejsondata.py] → 설명까지 추가
+[remotejsondata.py](https://github.com/justinbrianhwang/AI-project/blob/main/Chapter1-1.%20library/code/remotejsondata.py)
 
 ```python
 # remotejsondata.py
