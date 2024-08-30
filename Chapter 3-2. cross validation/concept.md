@@ -1,6 +1,5 @@
 # English
 
-```markdown
 ## Cross-Validation
 
 1. **Cross-Validation**
@@ -429,7 +428,6 @@ p(np.mean(scores))
 
 # Korean
 
-~~~markdown
 ## 교차 검증
 
 1. **교차 검증**
