@@ -267,14 +267,17 @@ In **machine learning**, encoding refers to the process of converting string val
     
     For example:
     
-    Hong          Lee           0
-    Kang    ⇒    Kang    ⇒    1
-    Lee           Kim           2
-    Kim           Hong          3
+   Hong          Lee           0
+   
+   Kang    ⇒    Kang    ⇒    1
+
+   Lee           Kim           2
+
+   Kim           Hong          3
     
     - Label encoding is applied to tree-based models where the numerical difference does not affect the model (e.g., decision trees, random forests).
     
-2. **One-Hot Encoding**
+3. **One-Hot Encoding**
     - Converts categorical data into binary values (0, 1) for each category.
     - Often used in linear models where each category is treated independently.
     
@@ -696,10 +699,13 @@ plt.show()
     
     예시:
     
-    Hong          Lee           0
-    Kang    ⇒    Kang    ⇒    1
-    Lee           Kim           2
-    Kim           Hong          3
+   Hong          Lee           0
+   
+   Kang    ⇒    Kang    ⇒    1
+
+   Lee           Kim           2
+
+   Kim           Hong          3
     
     - 레이블 인코딩은 숫자의 차이가 모델에 영향을 주지 않는 트리 계열의 모델에 적용 
     (의사결정나무, 랜덤 포레스트 등)
