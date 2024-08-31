@@ -22,7 +22,7 @@ Clustering: **Grouping together elements** with similar characteristics.
         1. Randomly select cluster centers ($k$ refers to the number of clusters).
         2. Assign each data point to the closest center.
         3. Calculate the mean of the data points within each cluster and update the cluster centers.
-        4. Repeat steps ii and iii until the center no longer changes.
+        4. Repeat steps b and c until the center no longer changes.
         
         **The center no longer changes** = **Centroid** is fixed = All points have converged = **Cluster** is complete.
         
@@ -42,7 +42,7 @@ Clustering: **Grouping together elements** with similar characteristics.
         - Data Point Assignment:
             - Each data point is assigned to the closest center.
             - Assignment is based on distance (Euclidean distance).
-        - Distance ($x$, $m$) = $n$ is the number of dimensions, $x_j$ is the $j$th dimensional value of data point $x$.
+        - Distance ($x$, $m$) = $n$ is the number of dimensions, $x_j$ is the $j$-th dimensional value of data point $x$.
 
 2. DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
     - A **density-based** clustering method that handles **noise**.
@@ -96,7 +96,7 @@ Clustering: **Grouping together elements** with similar characteristics.
         1. 클러스터의 중심점을 임의로 선택($k$가 의미하는 것은 클러스터의 수).
         2. 각 데이터 포인트를 가장 가까운 중심점에 할당.
         3. 클러스터에 속한 데이터 포인트들의 평균을 계산하여 새로운 중심점을 갱신.
-        4. 중심점이 더 이상 변경되지 않을 때까지 ii, iii 과정을 반복 수행.
+        4. 중심점이 더 이상 변경되지 않을 때까지 b, c 과정을 반복 수행.
         
         **중심점**이 더 이상 변경되지 않는다 = **구심점**이 확정되었다 = 다 모였다 = **클러스터** 완성.
         
@@ -128,7 +128,7 @@ Clustering: **Grouping together elements** with similar characteristics.
         2. 선택된 데이터 포인트에서 일정 반경(epsilon)에 있는 다른 데이터 포인트들을 찾는다.
         3. 이웃 데이터 포인트의 개수가 최소 개수(minPts) 이상이면 해당 데이터 포인트들을 하나의 클러스터로 할당한다.
         4. 이웃 데이터 포인트들도 반복적으로 클러스터에 추가하면서 클러스터를 확장시킨다.
-        5. 클러스터에 포함되지 않은 데이터 포인트들은 **노이즈(noise)**로 처리한다.
+        5. 클러스터에 포함되지 않은 데이터 포인트들은 **노이즈(noise)** 로 처리한다.
         
     2. 장점
         - 클러스터의 모양을 미리 가정하지 않기 때문에 다양한 모양의 클러스터를 찾을 수 있다.
